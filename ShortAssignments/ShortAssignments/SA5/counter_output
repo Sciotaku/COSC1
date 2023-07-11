@@ -1,0 +1,15 @@
+/opt/homebrew/opt/python3/bin/python3 /Users/rahulgupta/PycharmProjects/COSC1/ShortAssignments/SA5/counter_driver.py 
+Counter 1: 0 0 True
+Counter 2: 0 00 True
+Counter 1: 8 8 False
+Counter 2: 59 59 False
+Counter 1: 7 7 False
+Counter 2: 58 58 False
+Counter 1: 6 6 False
+Counter 2: 57 57 False
+Counter 1: 5 5 False
+Counter 2: 56 56 False
+Counter 1: 4 4 False
+Counter 2: 55 55 False
+
+Process finished with exit code 0

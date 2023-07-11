@@ -1,0 +1,24 @@
+/opt/homebrew/opt/python3/bin/python3 /Users/rahulgupta/PycharmProjects/COSC1/ShortAssignments/SA7/binary-search_Rahul.py
+How many items in the list? 15
+The list: [80, 105, 135, 208, 308, 396, 453, 531, 609, 610, 613, 639, 780, 862, 945]
+What value to search for? ('?' to see the list, 'q' to quit): 308
+308 found at index 4
+What value to search for? ('?' to see the list, 'q' to quit): 105
+105 found at index 1
+What value to search for? ('?' to see the list, 'q' to quit): 609
+609 found at index 8
+What value to search for? ('?' to see the list, 'q' to quit): 945
+945 found at index 14
+What value to search for? ('?' to see the list, 'q' to quit): 208
+208 found at index 3
+What value to search for? ('?' to see the list, 'q' to quit): 1000
+1000 not found
+What value to search for? ('?' to see the list, 'q' to quit): 50
+50 not found
+What value to search for? ('?' to see the list, 'q' to quit): 0
+0 not found
+What value to search for? ('?' to see the list, 'q' to quit): 453
+453 found at index 6
+What value to search for? ('?' to see the list, 'q' to quit): 531
+531 found at index 7
+What value to search for? ('?' to see the list, 'q' to quit):

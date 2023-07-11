@@ -1,0 +1,81 @@
+START| LESS_TRAVELED, MORE_TRAVELED| You are walking through the woods on a snowy evening. You come to a fork in the road. Do you a) take the road less-traveled or b) take the road more-traveled?
+
+LESS_TRAVELED| TEMPLE, MOUNTAIN_PASS| You come across a golden temple. Do you a) enter the temple or b) continue along the path?
+
+MORE_TRAVELED| CROSS_ROAD, ABANDONED_CASTLE| You see a cross road. Do you a) take the left path or b) take the right path towards an abandoned castle?
+
+TEMPLE| TREASURE_ROOM, DRAGON'S_LIAR | You see a treasure room with a bright golden sword at the center. Do you a) try to unsheathe the sword or b) exit the temple?
+
+MOUNTAIN_PASS| FROZEN_LAKE, ABANDONED_VILLAGE| You come across a frozen lake. Do you a) cross the frozen lake or b) take a detour through an abandoned village?
+
+CROSS_ROAD| TRAP, WATERFALL| You fall into a trap. Do you a) try to escape or b) wait for help?
+
+ABANDONED_CASTLE| CREEPY_STATUE, SECRET_BASEMENT| You find a creepy statue. Do you a) leave it alone or b) take it with you?
+
+TREASURE_ROOM| EXIT_TREASURE, SECRET_BASEMENT| You take the sword and leave the temple. Do you a) continue down the mountain path or b) return to the temple?
+
+DRAGON'S_LIAR| YOU_KILL_DRAGON, DRAGON_KILLS_YOU| You see a blue dragon. Do you a) kill the dragon with the sword or b) hide from the dragon?
+
+FROZEN_LAKE| FALL_THROUGH_ICE, SNOWY_MOUNTAIN| You fall through the ice. Do you a) try to climb out or b) swim towards the other side?
+
+FALL_THROUGH_ICE|| You fall through ice and get pierced by the spikes at the bottom. You die. The End!
+
+SNOWY_MOUNTAIN| DRAGON'S_LIAR, DRAGON_KILLS_YOU| You find a snowy mountain at the other side of the lake. You see a dragon's liar on top of the mountain. Do you a) go inside the liar to slay the dragon or b) accept your fate?
+
+ABANDONED_VILLAGE| TRAPPED, NEGOTIATE| You are trapped by some bandits. Do you a) fight back or b) try to negotiate?
+
+TRAPPED| CROSS_ROAD, ABANDONED_CASTLE| You weigh your options and decide to fight back. After a tough battle, you emerge victorious and continue on your journey. You see a cross road. Do you a) take the left path or b) take the right path towards an abandoned castle?
+
+NEGOTIATE| CROSS_ROAD, ABANDONED_CASTLE| You try to negotiate but you can't fulfill their demands. You weigh your options and decide to fight back. After a tough battle, you emerge victorious and continue on your journey. You see a cross road. Do you a) take the left path or b) take the right path towards an abandoned castle?
+
+TRAP| FREEZE_TO_DEATH, CALL_FOR_HELP| You're stuck in the trap. Do you a) wait for help or b) try to escape?
+
+FREEZE_TO_DEATH|| You froze to death. The End!
+
+CALL_FOR_HELP|| You called for help but nobody came. You died. The End.
+
+WATERFALL| HIDDEN_CAVE, CLIFF_EDGE| You find a secret passage behind the waterfall. Do you a) enter the cave or b) continue along the path?
+
+HIDDEN_CAVE| TRAPPED, NEGOTIATE| You enter the cave and end up at a small abandoned village. You are trapped by some bandits. Do you a) fight back or b) try to negotiate?
+
+CLIFF_EDGE|| You end up at a cliff edge and fall down due to strong wind. You die. The End.
+
+CREEPY_STATUE| POSSESSED_STATUE, HAUNTED_CABIN| The statue comes to life and follows you. Do you a) try to destroy the statue or b) take it with you to the depths of the castle?
+
+POSSESSED_STATUE|| You tried to destroy the statue but it exploded. You died. The End!
+
+HAUNTED_CABIN| SECRET_BASEMENT, LEAVE_CABIN| You go inside the haunted cabin and find a secret basement. Do you a) want to explore the basement or b) leave the cabin?
+
+SECRET_BASEMENT| TREASURE_MAP, OLD_JOURNAL| You find a map that leads to a hidden treasure. Do you a) follow the map or b) read the old journal?
+
+TREASURE_MAP| DRAGON'S_LIAR, DRAGON_KILLS_YOU| You follow the treasure map and end up at a dragon's liar. Do you a) want to kill the dragon or b) run for your life?
+
+OLD_JOURNAL|| You find information about a secret treasure in the old journal. You follow the instructions and end up with immense wealth. You won!
+
+LEAVE_CABIN| DRAGON'S_LIAR, DRAGON_KILLS_YOU| You found a dragon's liar. Do you a) want to kill the dragon or b) run for your life?
+
+EXIT_TREASURE| TEMPLE_EXIT, RAVINE| You exit the temple with the sword. Do you a) go back to the fork in the road or b) continue through the ravine?
+
+DEAD_END| YOU_DIE, TRAPPED_FOREVER| You are trapped in the cave. Do you a) try to find another way out or b) accept your fate?
+
+YOU-DIE| TRAPPED_FOREVER| You can't find another way out. You have to accept your fate.
+
+TRAPPED_FOREVER|| You are trapped forever in the cave. You die. The End!
+
+YOU_KILL_DRAGON|GET_SICK, YOU_SURVIVE| You kill the dragon. Do you a) continue down the mountain path or b) rest and recover?
+
+GET_SICK|| You got really sick on the way and died. The End!
+
+YOU_SURVIVE|| Deciding to rest, you recover from your wounds and continue on your journey. Finally, you reach your destination and are met with great riches and rewards for your bravery and perseverance. The End!
+
+DRAGON_KILLS_YOU|| The dragon finds you and kills you with his breath. The End!
+
+TEMPLE_EXIT| START, END| You are back at the beginning. Do you a) want to start again? or b) end?
+
+RAVINE | FROZEN_LAKE, ABANDONED_VILLAGE| You come across a frozen lake. Do you a) cross the frozen lake or b) take a detour through an abandoned village?
+
+END || You gave up! Looser.
+
+
+
+
