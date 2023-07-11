@@ -1,0 +1,27 @@
+#Author: Vasanta
+#Date: 03/03/2023
+#Purpose: BFS pseudocode
+
+Input: start and goal vertex
+Output: Path
+
+Frontier: deque
+Backpointer dictionary
+
+Algorithm:
+
+1. Add the start vertex to frontier
+2. Add the start vertex as key and value as None to backpointer dictionary
+3. While Goal in not in backpointer and frontier is not empty:
+4.      Get a vertex from frontier, let us call it curr_v
+5.      for every neighbour adj_v  of curr_v:
+6.          if adj_v is not in backpointer dictionary:
+7.              Add adj_v to frontier
+8.              Add adj_v as key and curr_v as value to backpointer dictionary
+9.
+10. v = Goal
+11. initialize path to empty
+12. while v != None:
+13.     add v to path
+14.     get the backpoint bp of v
+15.     set v to bp

@@ -1,0 +1,7 @@
+Hanover: Lebanon, WestLebanon, Norwich
+Lebanon: Hanover, Plainfield, Enfield, WestLebanon
+Norwich: Hanover
+Plainfield: Grantham, Lebanon
+Enfield: Lebanon, Grantham
+WestLebanon: Lebanon, Hanover
+Grantham: Plainfield, Enfield
