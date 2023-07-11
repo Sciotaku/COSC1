@@ -1,0 +1,7 @@
+Displaying vertex names (displayvertexnames.py) - my code displays names of all the vertices in the path.
+Add vertices to the map (newvertices.py, new_dartmouth_vertex.txt) - I added about 5 more vertices - Dartmouth Hall, ECSC, McNutt, To Pond, Occom Pond
+Animate breadth-first search (animatebfs.py) - I tried animating bfs.
+Breadcrumb search (breadcrumbsearch.py, usingbreadcrumbsearch.py) - I created a new breadcrumb search function and used it to plot the map.
+Created a cool user interface (coolinterface.py)
+Modified the map_plot function (selectvertex.py) to prompt the user to input some choices.
+
