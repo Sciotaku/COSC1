@@ -1,0 +1,6 @@
+I tried to create an actual pong game. It includes the following features.
+
+1. When you run the program, a welcome page pops off prompting the user to press a key to start the game.
+2. The ball starts in random direction.
+3. The ball starts with random speed.
+4. The color of the ball changes when it strikes the paddles.

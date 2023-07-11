@@ -1,0 +1,5 @@
+I plan to work on the next part of LAB 1 by first drawing a ball at the center of the canvas and trying to move it horizontally.
+Then, I will check whether the ball hits the walls and change the direction of its motion.
+After that, I will try to add a y-velocity to the ball.
+Then, I will write a code that makes the ball interact with the paddles.
+I also plan on working for the extra credit by adding lots of other features.
